@@ -1,0 +1,26 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "weather_app",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pdimaano/weather-app.git"
+  },
+  "keywords": [
+    "weather"
+  ],
+  "author": "pdimaano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pdimaano/weather-app/issues"
+  },
+  "homepage": "https://github.com/pdimaano/weather-app#readme",
+  "devDependencies": {
+    "webpack": "^5.69.1",
+    "webpack-cli": "^4.9.2"
+  }
+}
