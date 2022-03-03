@@ -1,1 +1,1 @@
-# weather-app
+Create a dynamic weather application using HTML, CSS, Javascript & Webpack.
