@@ -1,6 +1,7 @@
 :root {
-    --light: #d7d9e2;
-    --dark: #1b30a3;
+    --light: #d8d8e9;
+    --dark: #4eabcf;
+    --text: #000000;
 }
 
 *,
@@ -14,7 +15,7 @@
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1.6rem;
-    background-color: var(--dark);
+    background-color: var(--light);
 }
 
 header {
@@ -25,7 +26,7 @@ button,
 input {
     padding: 0.5rem;
     border: none;
-    border-radius: 3px;
+    border-radius: 5px;
     color: inherit;
     font-family: inherit;
     font-size: inherit;
@@ -37,9 +38,9 @@ button {
 }
 
 .header {
-    padding-top: 2rem;
+    padding: 2rem 0;
     background-color: var(--dark);
-    color: var(--light);
+    color: var(--text);
 }
 
 .page-name {
@@ -51,30 +52,30 @@ button {
 }
 
 .form {
-    padding: 2rem;
+    padding: 0.5rem 0 3rem 0;
     text-align: center;
 }
 
 .input {
     margin-right: 0.5rem;
     background-color: #ffffff;
-    color: var(--dark);
+    color: var(--text);
     border: 2px solid transparent;
 }
 
 .btn {
     background-color: #eeeeee;
-    color: var(--dark);
+    color: var(--text);
 }
 
 .search-result {
     display: none;
     max-width: 500px;
     padding: 2rem;
-    border-radius: 3px;
+    border-radius: 20px;
     margin: 2rem;
-    background-color: var(--light);
-    color: var(--dark);
+    background-color: var(--dark);
+    color: var(--text);
 }
 
 .search-result.active {
@@ -89,9 +90,9 @@ button {
 
 .search-result h3 {
     border-radius: 3px;
-    font-size: 4rem;
+    font-size: 3rem;
 }
 
 .search-result p {
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
