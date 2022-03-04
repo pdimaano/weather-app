@@ -8,14 +8,14 @@ const view = (() => {
         const cityName = document.getElementById("cityName");
         const temperature = document.getElementById("temperature");
         const feelsLike = document.getElementById("feelsLike");
-        const humidity = document.getElementById("humidity");
         const wind = document.getElementById("wind");
+        const humidity = document.getElementById("humidity");
 
         cityName.textContent = `${weatherData.cityName}`;
         temperature.textContent = `${weatherData.temperature} °F`;
         feelsLike.textContent = `Feels like: ${weatherData.feelsLike} °F`;
-        humidity.textContent = `Humidity: ${weatherData.humidity} %`;
         wind.textContent = `Wind: ${weatherData.windSpeed} mph`;
+        humidity.textContent = `Humidity: ${weatherData.humidity} %`;
     }
 
     return {setSearchResult};
